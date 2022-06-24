@@ -1,0 +1,35 @@
+body{
+    background: whitesmoke;
+    text-align: left;
+    font-family: 'Fira Sans', sans-ser    
+}
+
+strong{
+    font-style: oblique;
+}
+
+h3{
+    line-height: 8px;
+    text-align: left;
+}
+
+p{
+    line-height: 4px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+footer{
+    background: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px;
+}  
+
+#right{
+    color: rgb(1, 1, 31);
+    text-align: right;
+    letter-spacing: 1px;
+}
+
