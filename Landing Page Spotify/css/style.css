@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: black;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: #212121;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 60px;
+    padding: 20px 20px 20px 20px;
+}
+
+a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;   
+    border: solid rgb(53, 48, 48);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+nav ul li:hover{
+    border-radius: 10px;
+    background: rgb(0,0,0,0.5);
+    margin: 0px;
+}
+
+.splash{
+    display: flex;
+    width: 100%;
+    height: 80vh;  
+    background: url(../images/fondo.jpg) center center fixed;
+    background-size: cover;
+}
+
+.player{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.capitulos{
+    background: #252423;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-cards{
+    width: 80%;
+    background: #252423;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    height: 350px;
+    width: 200px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card img{
+    border-radius: 10px;
+}
+
+.capitulos h2{
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.capitulos h3{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.capitulos p{
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
